@@ -37,6 +37,18 @@ python 刪除重複檔案.py
 - 照片腳本依「最後修改時間」排序，複製檔案可能改變時間，請先看第一張／最後一張的預覽。
 - 建議先在資料夾的複本上試跑。
 
+## 技術來源與致謝
+
+本工具只使用 Python 標準函式庫，沒有第三方套件。
+
+開發過程使用 [Claude Code](https://claude.com/claude-code)（Anthropic）協助。
+
+## 作者
+
+- 網站：https://shaoenstudio.com
+- 聯絡信箱：shaoenstudio@gmail.com
+- GitHub：[@shaoen901109](https://github.com/shaoen901109)
+
 ## 授權
 
 MIT，詳見 [LICENSE](LICENSE)。

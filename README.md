@@ -37,6 +37,18 @@ Run a script, then follow the prompts. Paths wrapped in quotes (as copied from E
 - Photo scripts sort by last-modified time; copying files can change that, so check the first/last preview.
 - Try on a copy of a folder before using on real data.
 
+## Credits
+
+This tool uses only the Python standard library, no third-party packages.
+
+Developed with the help of [Claude Code](https://claude.com/claude-code) (Anthropic).
+
+## Author
+
+- Website: https://shaoenstudio.com
+- Email: shaoenstudio@gmail.com
+- GitHub: [@shaoen901109](https://github.com/shaoen901109)
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
