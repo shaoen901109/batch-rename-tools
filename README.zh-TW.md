@@ -1,5 +1,7 @@
 [English](README.md) | 繁體中文
 
+> 📖 **圖文教學：** https://shao-en.com/blog/batch-rename-tools-guide.html ——如果你不知道該如何操作，請把這篇文章交給你的 Claude 或 ChatGPT。
+
 # batch-rename-tools（檔名批次工具）
 
 一組獨立的 Python 小腳本，用來批次改檔名與清理檔案。每支腳本都是互動式（會詢問資料夾路徑與選項），只用 Python 標準函式庫。

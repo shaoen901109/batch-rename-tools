@@ -1,5 +1,7 @@
 English | [繁體中文](README.zh-TW.md)
 
+> 📖 **Step-by-step tutorial (Traditional Chinese):** https://shao-en.com/blog/batch-rename-tools-guide.html — not sure how to set it up? Hand the article to Claude or ChatGPT and let it walk you through.
+
 # batch-rename-tools
 
 A small set of standalone Python scripts for batch-renaming and cleaning up files. Each script is interactive (it asks for a folder path and options) and uses only the Python standard library. The script file names and prompts are in Traditional Chinese.
