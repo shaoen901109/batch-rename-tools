@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.env
+*.env
+*.bak
+*.bak-*
+*.log
+# rename logs written by the truncation tool
+檔名截斷紀錄_*.csv
