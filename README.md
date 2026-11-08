@@ -39,6 +39,28 @@ Run a script, then follow the prompts. Paths wrapped in quotes (as copied from E
 - Photo scripts sort by last-modified time; copying files can change that, so check the first/last preview.
 - Try on a copy of a folder before using on real data.
 
+## Verify your download
+
+Download `batch-rename-tools-v1.0.0.zip` and `SHA256SUMS.txt` from [Releases](https://github.com/shaoen901109/batch-rename-tools/releases) (use the version you actually downloaded).
+
+1. Compare the checksum in PowerShell:
+
+   ```powershell
+   Get-FileHash .\batch-rename-tools-v1.0.0.zip -Algorithm SHA256
+   ```
+
+   The `Hash` must match the string in `SHA256SUMS.txt` (letter case does not matter).
+
+2. Verify where it was built (needs [GitHub CLI](https://cli.github.com/)):
+
+   ```powershell
+   gh attestation verify .\batch-rename-tools-v1.0.0.zip --repo shaoen901109/batch-rename-tools
+   ```
+
+   A successful result means GitHub Actions built this zip from this repository's source and it was not swapped along the way.
+
+Commits marked **Verified** on GitHub are signed by the author.
+
 ## Credits
 
 This tool uses only the Python standard library, no third-party packages.
